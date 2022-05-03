@@ -1,0 +1,387 @@
+*{
+    top: 0;
+    padding: 0;
+    margin: 0;
+}
+h2{
+    font-style: italic;
+    font-weight: bold;
+
+}
+h6
+{
+    font-weight: bold;
+    font-style: italic;
+    color: #A82C48;}
+h3
+{
+    text-align: center;
+    padding-top: 50px;
+    text-decoration: underline;
+    font-weight: bold;
+    font-style: italic;
+}
+.navbar{
+    background-color: black;
+}
+.navbar-toggler-icon
+{
+    border-color: lightgreen;
+}
+.nav-item .nav-link{
+    color: white;
+    margin-left: 30px;
+    transition: all 200ms;
+}
+.nav-link:hover{
+    background-color: white;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    color: #A82C48;
+    transform: scale(1.1);
+}
+i{
+    font-size: 30px;
+    color: white;
+}
+/* home sectiom  */
+#home
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+#home::before
+{
+    content: "";
+    background: url(/img/pexels-cottonbro-5483064.jpg) no-repeat center center/cover;
+   position: absolute;
+   height: 600px;
+   width: 100%;
+   top: 0;
+   left: 0;
+   z-index: -1; 
+   opacity: 0.50;
+   background-attachment: fixed;
+}
+
+.container
+{
+    margin-top: 70px;
+
+}
+.devinfo
+{
+    padding-top: 40px;
+}
+.btn
+{
+    background-color: #A82C48;
+    color: white;
+    transition: all 200ms;
+}
+.btn:hover
+{
+    color:  #A82C48;
+    background-color: white;
+    border: 2px solid #A82C48;
+    transform: scale(1.1);
+}
+.col img{
+    height: 400px;
+    width: 600px;
+    border-radius: 10px;
+    background-attachment: fixed;
+}
+.typing{
+    color: #A82C48;
+    font-size: 2rem;
+}
+.typing-2{
+    color: #A82C48;
+    font-size: 1.2rem;
+}
+/* countersection */
+.counting-section{
+    margin-top: 300px
+}
+.box
+{
+    background-color: #A82C48;
+    height: 250px;
+    width: 300px;
+    margin: 5px;
+    border-radius: 8px;
+    transition: all 200ms;
+    cursor: pointer;
+}
+.box:hover
+{
+    transform: scale(1.1);
+ 
+}
+.box i
+{
+  padding-top: 40px;
+  font-size: 40px;
+  color: white;
+  display: flex;
+
+  justify-content: center;
+}
+.box h3 ,h4
+{
+text-align: center;
+color: white;
+text-decoration: none;
+/* padding: 15px; */
+}
+.num{
+    padding-bottom: 20px;
+}
+/* skill section  */
+.skill-item{
+    color: black;
+}
+.range
+{
+    color: black;
+    margin-left: 480px
+}
+.bg
+{
+    background-color: #A82C48;
+    width: 70%;
+    height: 7px;
+}
+.boder{
+height: 7px;
+width: 90%;
+background-color:rgb(219, 218, 218);
+}
+col p{
+    margin-top: 50px;
+}
+
+/* about section  */
+.mypic img
+{
+    height: 300px;
+    width: 300px;
+    box-shadow: 78px 0px 0px 0px #A82C48;
+    margin-left: 100px;
+    
+}
+.aboutmetext{
+    font-size: 45px;
+    font-style: oblique;
+    font-weight: bold;
+    color: #A82C48;
+}
+/* contact section  */
+.contact-section::before
+{
+    content: "";
+    position: absolute;
+    background: url(/img/2.jpg) center ;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    background-attachment: fixed;
+    z-index: -1;
+    opacity: 0.33;
+}
+.email
+{
+    font-weight: bold;
+}
+.email-text{
+    color: #A82C48;
+}
+i
+{
+    color: #A82C48;
+    font-size: 20px;
+}
+
+
+.contact-form form{
+   padding-top: 100px ;
+}
+.input{
+    border: 2px double #A82C48;
+    margin: 2px;
+    background: transparent;
+}
+.input:focus{
+    background:transparent;
+    box-shadow:1px 1px 5px 1px #A82C48;
+    border: none;
+}
+input::-webkit-input-placeholder {
+    color: black;
+}
+.form-control::placeholder { 
+    color: black;
+    opacity: 1; 
+}
+
+
+
+
+/* service section */
+#services{
+    margin: 50px 0;
+    background: url(/img/black.jpg); 
+    background-attachment: fixed;
+    height: 500px;
+    display: flex;
+    align-items: center;
+
+}
+.span{
+    text-align: center;
+    display: block;
+    color: #A82C48;
+    font-style: italic;
+    font-size: 18px;
+
+}
+
+.service-boxs
+{
+    background-color: rgb(12, 11, 11);
+    height: 350px;
+    width: 300px;
+    margin: 5px;
+    border-radius: 8px;
+    transition: all 200ms;
+    cursor: pointer;  
+    opacity: 0.79;
+    transition: all 200ms;
+    box-sizing: border-box;
+}
+.service-boxs:hover
+{
+    transform: scale(1.1);
+    background-color: #A82C48;
+}
+.service-boxs:hover i
+{
+   
+    color: white;
+}
+.service-boxs h3
+{
+color: white;
+text-decoration: none;
+font-weight: bold;
+}
+.service-boxs p
+{
+color: white;
+padding: 30px 20px;
+text-align: center;
+
+}
+.service-boxs i{
+    color: #A82C48;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    font-size: 70px;
+}
+
+
+
+.card:hover {
+    /* box-shadow: 2px 2px 5px 2px; */
+    background-color: #A82C48;
+    color: white;
+    transform: scale(1.05);
+    
+}
+.card i{
+    font-size: 50px;
+    color: #A82C48;
+    text-align: center;
+    transition: all 0.2s ease-in;
+
+}
+.card:hover i{
+color: white;
+}
+
+
+
+
+
+@media screen and (max-width: 1009px) {
+    .service-boxs{
+       height: 300px;
+       width: 200px;
+
+    }
+    .service-boxs i{
+    
+        font-size: 30px;
+        margin-bottom: -30px;
+    }
+    .service-boxs h3
+{
+font-size: 18px;
+}   
+.service-boxs p
+{
+color: white;
+padding: 5px 20px;
+text-align: center;
+font-size: 15px;
+}
+    
+  }
+  @media screen and (max-width: 768px) 
+  {
+    #services{
+      
+        height: 1100px;
+
+    }
+    .contact-section::before
+    {
+        height: 600px;
+       
+    }
+    h3{
+        margin-bottom: 50px;
+    }
+  }
+  @media screen and (max-width: 489px) 
+  {
+    .mypic img
+    {
+        height: 250px;
+        width: 250px;
+      overflow: hidden;  
+        
+    }
+  }
+  @media screen and (max-width: 376px) 
+  {
+    #services{
+      
+        height: 1200px;
+
+    }
+    .contact-section::before
+    {
+        height: 600px;
+        margin-top: 500px;
+       
+    }
+    h3{
+        margin-bottom: 50px;
+    }
+  }
